@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply p-2 text-gray-600 hover:text-red-500 transition-colors;
+  }
+}
