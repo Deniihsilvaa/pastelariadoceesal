@@ -12,7 +12,7 @@ export function Profile() {
         <div className="flex items-center space-x-6 ">
 
           <div>
-            <h3 className="text-2xl font-bold">{user?.email || "Visitante"}</h3>
+            <h3 className="text-2xl font-bold">{user?. || "Visitante"}</h3>
             <p className="text-gray-600">
               {user?.email || "email@example.com"}
             </p>

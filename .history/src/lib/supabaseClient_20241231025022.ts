@@ -18,5 +18,9 @@ export const supabase = createClient(supabaseUrl, supabaseKey, {
       eventsPerSecond: 10, // Define o número de eventos por segundo
     },
   },
- 
+  storage: {
+    params: {
+      cacheControl: "3600",
+    },
+  },
 });
